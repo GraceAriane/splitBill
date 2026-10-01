@@ -6,8 +6,6 @@ public class Person {
     private Long id;
     private String name;
     private BigDecimal amountPaid;
-    private BigDecimal amountToPay;
-    private BigDecimal amountToReceive;
     private BigDecimal balance;
 
     public Person(Long id, String name) {
@@ -25,24 +23,13 @@ public class Person {
         this.name = name;
         return name;
     }
-    public BigDecimal getamountPaid() {
+    public BigDecimal getAmountPaid() {
         return amountPaid;
     }
-    public void setamountPaid(BigDecimal amountPaid) {
+    public void setAmountPaid(BigDecimal amountPaid) {
         this.amountPaid = amountPaid;
     }
-    public BigDecimal getamountToPay() {
-        return amountToPay;
-    }
-    public void setamountToPay(BigDecimal amountToPay) {
-        this.amountToPay = amountToPay;
-    }
-    public BigDecimal getamountToReceive() {
-        return amountToReceive;
-    }
-    public void setamountToReceive(BigDecimal amountToReceive) {
-        this.amountToReceive = amountToReceive;
-    }
+
     public BigDecimal getBalance() {
         return balance;
     }
